@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewGradientStroke">
+        <attr name="gsStrokeWidth" format="float" />
+        <attr name="gsStartStrokeColor" format="color" />
+        <attr name="gsEndStrokeColor" format="color" />
+        <attr name="gsGradientStartColor" format="color" />
+        <attr name="gsGradientEndColor" format="color" />
+        <attr name="gsShadowColor" format="color" />
+        <attr name="gsShadowRadius" format="float" />
+        <attr name="gsShadowDx" format="float" />
+        <attr name="gsShadowDy" format="float" />
+        <attr name="gsIsShowShadow" format="boolean" />
+        <attr name="gsIsShowStroke" format="boolean" />
+        <attr name="gsIsShowGradient" format="boolean" />
+        <attr name="gradientOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="diagonal" value="2" />
+        </attr>
+        <attr name="strokeOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="diagonal" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
